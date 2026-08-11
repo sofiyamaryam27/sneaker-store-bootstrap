@@ -1,0 +1,350 @@
+/* ================================
+   CONTACT PAGE
+================================ */
+
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:#f8f9fa;
+
+}
+
+
+
+/* ================================
+   CONTACT HERO
+================================ */
+
+
+.contact-hero{
+
+    margin-top:80px;
+
+    padding:80px 0;
+
+    background:white;
+
+    text-align:center;
+
+}
+
+
+
+.contact-image{
+
+    width:380px;
+
+    max-width:90%;
+
+    border-radius:25px;
+
+    margin-bottom:30px;
+
+    animation:floatImage 3s infinite ease-in-out;
+
+}
+
+
+
+.contact-hero h1{
+
+    font-size:48px;
+
+    font-weight:700;
+
+    color:#111;
+
+}
+
+
+
+.contact-hero p{
+
+    font-size:18px;
+
+    color:#666;
+
+}
+
+
+
+
+
+
+
+/* ================================
+   CONTACT SECTION
+================================ */
+
+
+.contact-section{
+
+    padding:70px 0;
+
+}
+
+
+
+
+
+
+/* ================================
+   CONTACT INFO
+================================ */
+
+
+.contact-info{
+
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:20px;
+
+
+    box-shadow:
+
+    0 10px 30px rgba(0,0,0,0.08);
+
+
+    height:100%;
+
+
+}
+
+
+
+.contact-info h2{
+
+
+    font-size:32px;
+
+    font-weight:700;
+
+    margin-bottom:30px;
+
+
+}
+
+
+
+
+.contact-info p{
+
+
+    font-size:17px;
+
+    color:#555;
+
+    margin-bottom:25px;
+
+
+}
+
+
+
+.contact-info i{
+
+
+    color:#111;
+
+    margin-right:12px;
+
+    font-size:20px;
+
+
+}
+
+
+
+
+
+
+/* ================================
+   CONTACT FORM
+================================ */
+
+
+.contact-form{
+
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:20px;
+
+
+    box-shadow:
+
+    0 10px 30px rgba(0,0,0,0.08);
+
+
+}
+
+
+
+
+.contact-form h2{
+
+
+    font-size:32px;
+
+    font-weight:700;
+
+    margin-bottom:25px;
+
+
+}
+
+
+
+
+
+.contact-form input,
+.contact-form textarea{
+
+
+    margin-bottom:20px;
+
+    padding:14px;
+
+    border-radius:12px;
+
+    border:1px solid #ddd;
+
+
+}
+
+
+
+
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+
+
+    border-color:#111;
+
+    box-shadow:none;
+
+
+}
+
+
+
+
+
+
+/* SEND BUTTON */
+
+
+.contact-btn{
+
+
+    width:100%;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:30px;
+
+
+    background:#111;
+
+    color:white;
+
+
+    font-size:18px;
+
+    font-weight:600;
+
+
+    transition:0.3s;
+
+
+}
+
+
+
+.contact-btn:hover{
+
+
+    background:#ff4d00;
+
+    transform:scale(1.03);
+
+
+}
+
+
+
+
+
+
+/* ================================
+   IMAGE ANIMATION
+================================ */
+
+
+@keyframes floatImage{
+
+
+0%{
+
+transform:translateY(0);
+
+}
+
+
+50%{
+
+transform:translateY(-15px);
+
+}
+
+
+100%{
+
+transform:translateY(0);
+
+}
+
+
+}
+
+
+
+
+
+
+/* ================================
+   RESPONSIVE
+================================ */
+
+
+@media(max-width:768px){
+
+
+.contact-hero h1{
+
+    font-size:35px;
+
+}
+
+
+
+.contact-info,
+.contact-form{
+
+    padding:25px;
+
+}
+
+
+
+}

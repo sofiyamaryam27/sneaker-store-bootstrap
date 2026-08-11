@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop | Sneaker Studio</title>
+
+    <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+
+    <div class="container">
+
+        <!-- Logo -->
+        <a class="navbar-brand fw-bold logo" href="index.html">
+            👟 Sneaker <span>Studio</span>
+        </a>
+
+        <!-- Mobile Menu -->
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <!-- Menu -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+            <ul class="navbar-nav mx-auto">
+
+    <li class="nav-item">
+        <a class="nav-link active" href="index.html">Home</a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="shop.html">Shop</a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="customize.html">Customize</a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="sizeguide.html">Size Guide</a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="reviews.html">Reviews</a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+    </li>
+
+</ul>
+
+            <!-- Right Icons -->
+            <div class="d-flex align-items-center">
+
+    <a href="search.html">
+        <i class="fas fa-search nav-icon"></i>
+    </a>
+
+    <a href="wishlist.html">
+        <i class="fas fa-heart nav-icon"></i>
+    </a>
+
+    <a href="cart.html">
+        <i class="fas fa-shopping-cart nav-icon"></i>
+    </a>
+
+    <a href="login.html" class="btn login-btn ms-3">
+        Login
+    </a>
+
+</div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</nav>
+
+<!-- Navbar -->
+
+<nav class="navbar navbar-expand-lg navbar-dark shadow">
+
+<div class="container">
+
+<a class="navbar-brand fw-bold" href="dashboard.html">
+👟 Sneaker Studio
+</a>
+
+<button class="navbar-toggler"
+type="button"
+data-bs-toggle="collapse"
+data-bs-target="#menu">
+
+<span class="navbar-toggler-icon"></span>
+
+</button>
+
+<div class="collapse navbar-collapse" id="menu">
+
+<ul class="navbar-nav ms-auto align-items-center">
+
+<li class="nav-item">
+<a class="nav-link active" href="dashboard.html">Home</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="cart.html">
+<i class="fa-solid fa-cart-shopping"></i>
+Cart
+</a>
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</nav>
+
+<!-- Heading -->
+
+<section class="heading">
+
+<h1>Latest Sneakers Collection</h1>
+
+<p>
+Choose your favourite sneaker and add it to your cart.
+</p>
+
+</section>
+
+<!-- Products -->
+
+<div class="container">
+
+<div class="row g-4">
+
+<!-- Product 1 -->
+
+<div class="col-lg-3 col-md-6">
+
+<div class="product-card">
+
+<img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600" alt="Nike">
+
+<div class="heart-icon">
+    <i class="fa-regular fa-heart"></i>
+</div>
+
+<h4>Nike Air Max</h4>
+
+<p class="price">₹6,999</p>
+
+<p class="rating">⭐⭐⭐⭐⭐</p>
+
+<button class="cart-btn"
+data-name="Nike Air Max"
+data-price="6999"
+data-image="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600">
+
+Add to Cart
+</button>
+
+
+
+
+</div>
+
+</div>
+
+<!-- Product 2 -->
+
+<div class="col-lg-3 col-md-6">
+
+<div class="product-card">
+
+<img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=600" alt="Adidas">
+
+<div class="heart-icon">
+    <i class="fa-regular fa-heart"></i>
+</div>
+
+<h4>Adidas Ultraboost</h4>
+
+<p class="price">₹7,499</p>
+
+<p class="rating">⭐⭐⭐⭐⭐</p>
+
+<button class="cart-btn"
+data-name="Adidas Ultraboost"
+data-price="7499"
+data-image="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=600">
+
+
+Add to Cart
+</button>
+
+
+</div>
+
+</div>
+
+<!-- Product 3 -->
+
+<div class="col-lg-3 col-md-6">
+
+<div class="product-card">
+
+<img src="https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=600" alt="Puma">
+
+<div class="heart-icon">
+    <i class="fa-regular fa-heart"></i>
+</div>
+
+<h4>Puma RS-X</h4>
+
+<p class="price">₹5,899</p>
+
+<p class="rating">⭐⭐⭐⭐☆</p>
+
+<button class="cart-btn"
+data-name="Puma RS-X"
+data-price="5899"
+data-image="https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=600">
+
+
+Add to Cart
+
+</button>
+
+
+
+</div>
+
+</div>
+
+<!-- Product 4 -->
+
+<div class="col-lg-3 col-md-6">
+
+<div class="product-card">
+
+<img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=600" alt="Jordan">
+
+<div class="heart-icon">
+    <i class="fa-regular fa-heart"></i>
+</div>
+
+<h4>Jordan Retro</h4>
+
+<p class="price">₹8,999</p>
+
+<p class="rating">⭐⭐⭐⭐⭐</p>
+
+<button class="cart-btn"
+data-name="Jordan Retro"
+data-price="8999"
+data-image="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=600">
+
+
+Add to Cart
+
+</button>
+
+
+</button>
+
+</div>
+
+</div>
+
+<!-- Product 5 -->
+
+<div class="col-lg-3 col-md-6">
+
+<div class="product-card">
+
+<img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600" alt="Converse">
+
+<div class="heart-icon">
+    <i class="fa-regular fa-heart"></i>
+</div>
+
+<h4>Converse</h4>
+
+<p class="price">₹3,999</p>
+
+<p class="rating">⭐⭐⭐⭐⭐</p>
+
+<button class="cart-btn"
+data-name="Converse"
+data-price="3999"
+data-image="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600">
+
+Add to Cart
+
+</button>
+
+
+</div>
+
+</div>
+
+<!-- Product 6 -->
+
+<div class="col-lg-3 col-md-6">
+
+<div class="product-card">
+
+<img src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=600" alt="Vans">
+
+<div class="heart-icon">
+    <i class="fa-regular fa-heart"></i>
+</div>
+
+<h4>Vans Old Skool</h4>
+
+<p class="price">₹4,499</p>
+
+<p class="rating">⭐⭐⭐⭐☆</p>
+
+<button class="cart-btn"
+data-name="Vans Old Skool"
+data-price="4499"
+data-image="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=600">
+
+Add to Cart
+
+</button>
+
+
+</div>
+
+</div>
+
+<!-- Product 7 -->
+
+<div class="col-lg-3 col-md-6">
+
+<div class="product-card">
+
+<img src="https://images.unsplash.com/photo-1556906781-9a412961c28c?w=600" alt="New Balance">
+
+<div class="heart-icon">
+    <i class="fa-regular fa-heart"></i>
+</div>
+
+<h4>New Balance</h4>
+
+<p class="price">₹5,499</p>
+
+<p class="rating">⭐⭐⭐⭐⭐</p>
+
+<button class="cart-btn"
+data-name="New Balance"
+data-price="5499"
+data-image="https://images.unsplash.com/photo-1556906781-9a412961c28c?w=600">
+
+Add to Cart
+
+</button>
+
+</div>
+
+</div>
+
+<!-- Product 8 -->
+
+<div class="col-lg-3 col-md-6">
+
+<div class="product-card">
+
+<img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600" alt="Reebok">
+
+<div class="heart-icon">
+    <i class="fa-regular fa-heart"></i>
+</div>
+
+<h4>Reebok Classic</h4>
+
+<p class="price">₹4,799</p>
+
+<p class="rating">⭐⭐⭐⭐☆</p>
+
+<button class="cart-btn"
+data-name="Reebok Classic"
+data-price="4799"
+data-image="https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600">
+Add to Cart
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="shop.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>My Profile | Sneaker Studio</title>
+
+<link rel="stylesheet" href="profile.css">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<div class="profile-card">
+
+<div class="profile-image">
+<i class="fa-solid fa-user"></i>
+</div>
+
+<h2 id="userName"></h2>
+
+<p id="userEmail"></p>
+
+<div class="info-box">
+<i class="fa-solid fa-user"></i>
+<span id="fullName"></span>
+</div>
+
+<div class="info-box">
+<i class="fa-solid fa-envelope"></i>
+<span id="email"></span>
+</div>
+
+<div class="info-box">
+<i class="fa-solid fa-phone"></i>
+<span id="mobile"></span>
+</div>
+
+<div class="buttons">
+
+<a href="dashboard.html" class="btn btn-primary">
+Dashboard
+</a>
+
+<button class="btn btn-danger" onclick="logout()">
+Logout
+</button>
+
+</div>
+
+</div>
+
+<script src="profile.js"></script>
+
+</body>
+</html>

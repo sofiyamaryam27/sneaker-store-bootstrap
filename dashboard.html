@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dashboard | Sneaker Studio</title>
+
+    <link rel="stylesheet" href="dashboard.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+</head>
+
+<body>
+
+    <div class="dashboard-container">
+
+        <!-- Topbar -->
+
+        <div class="topbar">
+
+            <div class="brand">
+    <i class="fa-solid fa-shoe-prints"></i>
+    <span> Sneaker Studio </span>
+</div>
+
+            <div class="profile">
+
+                <div class="profile-icon">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+
+                <span id="userName"></span>
+
+            </div>
+
+        </div>
+
+        <!-- Dashboard Card -->
+
+        <div class="card">
+
+            <a href="index.html" class="close-btn">
+                <i class="fa-solid fa-xmark"></i>
+            </a>
+
+            <div id="lottie"></div>
+
+            <h1 id="welcomeText"></h1>
+
+            <p>You have successfully logged in to Sneaker Studio.</p>
+
+            <div class="btn-group">
+
+                <a href="shop.html" class="my-btn shop-btn">
+                    Shop Now
+                </a>
+
+                <a href="cart.html" class="my-btn cart-btn">
+                    My Cart
+                </a>
+
+                <a href="order.html" class="my-btn order-btn">
+                    Orders
+                </a>
+
+                <button onclick="logout()" class="my-btn logout-btn">
+                    Logout
+                </button>
+
+            </div>
+
+            <!-- Feature Section -->
+
+            <div class="feature-section">
+
+                <div class="feature-card">
+                    <i class="fa-solid fa-shoe-prints"></i>
+                    <h4>120+</h4>
+                    <p>Sneakers</p>
+                </div>
+
+                <div class="feature-card">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h4>15</h4>
+                    <p>Orders</p>
+                </div>
+
+                <div class="feature-card">
+                    <i class="fa-solid fa-heart"></i>
+                    <h4>48</h4>
+                    <p>Wishlist</p>
+                </div>
+
+                <div class="feature-card">
+                    <i class="fa-solid fa-star"></i>
+                    <h4>4.9</h4>
+                    <p>Rating</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="dashboard.js"></script>
+
+</body>
+
+</html>

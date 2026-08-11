@@ -1,0 +1,283 @@
+/* ===========================
+   GOOGLE FONT
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#0f172a,#1d4ed8);
+    color:#fff;
+}
+
+/* ===========================
+   SECTION
+=========================== */
+
+.customize-section{
+    padding:120px 0 70px;
+}
+
+.customize-section h1{
+    font-size:48px;
+    font-weight:700;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+/* ===========================
+   PREVIEW CARD
+=========================== */
+
+.preview-card{
+    background:#fff;
+    border-radius:25px;
+    padding:40px;
+    text-align:center;
+    box-shadow:0 20px 40px rgba(0,0,0,.25);
+    position:relative;
+    overflow:hidden;
+}
+
+.new-badge{
+    position:absolute;
+    top:20px;
+    left:20px;
+    background:#ef4444;
+    color:#fff;
+    padding:8px 18px;
+    border-radius:30px;
+    font-size:14px;
+    font-weight:600;
+}
+
+#shoeImage{
+    width:100%;
+    max-width:450px;
+    transition:.5s;
+}
+
+#shoeImage:hover{
+    transform:rotate(-12deg) scale(1.08);
+}
+
+#shoeName{
+    color:#111;
+    margin-top:25px;
+    font-size:32px;
+    font-weight:700;
+}
+
+#shoePrice{
+    color:#2563eb;
+    font-size:34px;
+    margin-top:10px;
+    font-weight:700;
+}
+
+/* ===========================
+   CUSTOM CARD
+=========================== */
+
+.custom-card{
+    background:#fff;
+    color:#111;
+    border-radius:25px;
+    padding:35px;
+    box-shadow:0 20px 40px rgba(0,0,0,.25);
+}
+
+.custom-card h3{
+    font-size:32px;
+    margin-bottom:25px;
+    font-weight:700;
+    color:#2563eb;
+}
+
+.custom-card label{
+    font-weight:600;
+    margin-bottom:8px;
+    display:block;
+}
+
+.form-select,
+.form-control{
+    border-radius:12px;
+    height:50px;
+}
+
+/* ===========================
+   COLOR BOX
+=========================== */
+
+.color-box{
+    display:flex;
+    gap:15px;
+    margin:20px 0 30px;
+    flex-wrap:wrap;
+}
+
+.color{
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    cursor:pointer;
+    border:3px solid #fff;
+    transition:.3s;
+}
+
+.color:hover{
+    transform:scale(1.2);
+}
+
+.black{
+    background:#111;
+}
+
+.white{
+    background:#fff;
+    border:2px solid #ccc;
+}
+
+.red{
+    background:#ef4444;
+}
+
+.blue{
+    background:#2563eb;
+}
+
+.green{
+    background:#22c55e;
+}
+
+.yellow{
+    background:#facc15;
+}
+
+/* ===========================
+   BUTTONS
+=========================== */
+
+.preview-btn,
+.cart-btn,
+.buy-btn{
+
+    border:none;
+    padding:15px;
+    border-radius:50px;
+    font-size:18px;
+    font-weight:600;
+    color:#fff;
+    transition:.3s;
+}
+
+.preview-btn{
+    background:#2563eb;
+}
+
+.cart-btn{
+    background:#22c55e;
+}
+
+.buy-btn{
+    background:#ef4444;
+}
+
+.preview-btn:hover,
+.cart-btn:hover,
+.buy-btn:hover{
+
+    transform:translateY(-5px);
+    box-shadow:0 12px 20px rgba(0,0,0,.25);
+
+}
+
+/* ===========================
+   FEATURES
+=========================== */
+
+.feature-box{
+
+    background:#fff;
+    color:#111;
+    border-radius:20px;
+    padding:30px;
+    text-align:center;
+    transition:.4s;
+    height:100%;
+
+}
+
+.feature-box:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.feature-box i{
+
+    font-size:45px;
+    color:#2563eb;
+    margin-bottom:20px;
+
+}
+
+.feature-box h4{
+
+    font-weight:700;
+    margin-bottom:10px;
+
+}
+
+.feature-box p{
+
+    color:#666;
+
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:992px){
+
+.preview-card{
+
+margin-bottom:30px;
+
+}
+
+.customize-section h1{
+
+font-size:36px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+#shoeImage{
+
+max-width:300px;
+
+}
+
+.custom-card{
+
+padding:25px;
+
+}
+
+.preview-card{
+
+padding:25px;
+
+}
+
+}

@@ -1,0 +1,267 @@
+/* ================================
+   REVIEW PAGE
+================================ */
+
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:#f8f9fa;
+
+}
+
+
+
+/* ================================
+   HERO SECTION
+================================ */
+
+
+.review-hero{
+
+    margin-top:80px;
+
+    padding:80px 0;
+
+    text-align:center;
+
+    background:white;
+
+}
+
+
+
+.review-image{
+
+    width:380px;
+
+    max-width:90%;
+
+    border-radius:25px;
+
+    margin-bottom:30px;
+
+    animation:floatImage 3s infinite ease-in-out;
+
+}
+
+
+
+.review-hero h1{
+
+    font-size:48px;
+
+    font-weight:700;
+
+    color:#111;
+
+}
+
+
+
+.review-hero p{
+
+    font-size:18px;
+
+    color:#666;
+
+}
+
+
+
+
+
+
+/* ================================
+   REVIEWS SECTION
+================================ */
+
+
+.reviews-section{
+
+    padding:70px 0;
+
+}
+
+
+
+.reviews-section h2{
+
+    font-size:38px;
+
+    font-weight:700;
+
+    color:#111;
+
+}
+
+
+
+.reviews-section p{
+
+    color:#666;
+
+}
+
+
+
+
+
+
+/* ================================
+   REVIEW CARD
+================================ */
+
+
+.review-card{
+
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:20px;
+
+
+    height:100%;
+
+
+    box-shadow:
+
+    0 10px 30px rgba(0,0,0,0.08);
+
+
+    transition:0.4s;
+
+
+}
+
+
+
+.review-card:hover{
+
+
+    transform:translateY(-12px);
+
+
+    box-shadow:
+
+    0 15px 35px rgba(0,0,0,0.15);
+
+
+}
+
+
+
+
+.stars{
+
+
+    font-size:25px;
+
+    margin-bottom:20px;
+
+
+}
+
+
+
+
+.review-card h4{
+
+
+    font-size:22px;
+
+    font-weight:600;
+
+    margin-bottom:15px;
+
+
+}
+
+
+
+
+.review-card p{
+
+
+    font-size:16px;
+
+    line-height:1.7;
+
+    color:#555;
+
+
+}
+
+
+
+
+
+
+/* ================================
+   IMAGE FLOAT ANIMATION
+================================ */
+
+
+@keyframes floatImage{
+
+
+0%{
+
+    transform:translateY(0);
+
+}
+
+
+50%{
+
+    transform:translateY(-15px);
+
+}
+
+
+100%{
+
+    transform:translateY(0);
+
+}
+
+
+}
+
+
+
+
+
+
+/* ================================
+   MOBILE RESPONSIVE
+================================ */
+
+
+@media(max-width:768px){
+
+
+.review-hero h1{
+
+
+    font-size:35px;
+
+
+}
+
+
+
+.review-card{
+
+
+    margin-bottom:20px;
+
+
+}
+
+
+
+}
